@@ -81,9 +81,6 @@
                                                     That ranges from 20-20k hertz. By the Nyquist theorm this of course dictated we would need an analog to digital converter
                                                     with a sample rate of at least 40k samples per second. 
                                                 </p>
-                                                <span class="image object">
-                                                    <img src="images/HERO-ALT.jpg" alt="" />
-                                                </span>
                                                 <h3>Hardware</h3>
                                                 <p>
                                                     Due to easy of access and past experience with them, we chose to use a raspberry pi pico for our ADC, as it
@@ -91,6 +88,24 @@
                                                     which would me more than enough for the project. An arduino was used in order to control the LED matrix as we foudn that was
                                                     easier than using the raspberry pi directly. 
                                                 </p>
+                                                <span class="image object">
+                                                    <img src="images/rasp_pico.jpg" alt="" />
+                                                </span>
+                                                <p>
+                                                    A Raspberry pi was the brains of the project used to do the FFT calculations and send the data to an arduino to be displayed.
+                                                    The class revolved around using this embedded system which is what made us have to use it. The pi demonstrated impresive ability 
+                                                    to do this live calculation even for being such a small low power system 
+                                                </p>
+                                                <span class="image object">
+                                                    <img src="images/HERO-ALT.jpg" alt="" />
+                                                </span>
+                                                <p>
+                                                    We discovered it was much easier to control the LED matrix through an arduino than using the pi directly. Communication between the 
+                                                    raspberry pi 4 and the arduino was acheived through UART.
+                                                </p>
+                                                <span class="image object">
+                                                    <img src="images/arduino.pjg" alt="" />
+                                                </span>
                                                 
 											</div>
 
